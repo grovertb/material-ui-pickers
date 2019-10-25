@@ -12,7 +12,7 @@ import {
   TableRow,
   Typography,
   makeStyles,
-} from '@material-ui/core';
+} from '@krowdy-ui/core';
 
 interface ReleasesProps {
   tags: string[];
@@ -38,8 +38,8 @@ const Releases: NextFC<ReleasesProps> = ({ tags }) => {
   return (
     <>
       <PageMeta
-        title="Releases - @material-ui/pickers"
-        description="List of @material-ui/pickers releases with a link to per-release documentation site."
+        title="Releases - @krowdy-ui/pickers"
+        description="List of @krowdy-ui/pickers releases with a link to per-release documentation site."
       />
 
       <Typography variant="h2" gutterBottom>
@@ -48,7 +48,7 @@ const Releases: NextFC<ReleasesProps> = ({ tags }) => {
       <Typography gutterBottom>
         We are using semver strategy for making releases. Here you can find documentation for some
         of previous material-ui-picker's releases. Please note that our versions are not synced with
-        @material-ui/core
+        @krowdy-ui/core
       </Typography>
 
       <Paper className={classes.scrollableTable}>

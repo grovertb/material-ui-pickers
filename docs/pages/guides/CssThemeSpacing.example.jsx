@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { createMuiTheme } from '@material-ui/core';
-import { ThemeProvider } from '@material-ui/styles';
-import { DateTimePicker } from '@material-ui/pickers';
+import { createMuiTheme } from '@krowdy-ui/core';
+import { ThemeProvider } from '@krowdy-ui/styles';
+import { DateTimePicker } from '@krowdy-ui/pickers';
 
 const defaultMaterialTheme = createMuiTheme({
   spacing: 2,

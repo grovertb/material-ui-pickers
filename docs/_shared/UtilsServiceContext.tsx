@@ -1,5 +1,5 @@
 import React from 'react';
-import { Omit } from '@material-ui/core';
+import { Omit } from '@krowdy-ui/core';
 import { UtilsService, createUtilsService } from '../utils/utilsService';
 
 export const UtilsContext = React.createContext<UtilsService>(createUtilsService('date-fns'));

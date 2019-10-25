@@ -2,15 +2,15 @@ import React from 'react';
 import Link from 'next/link';
 import PageMeta from '_shared/PageMeta';
 import Logo from '_shared/svgIcons/Logo';
-import Code from '@material-ui/icons/Code';
-import Alarm from '@material-ui/icons/Alarm';
+import Code from '@krowdy-ui/icons/Code';
+import Alarm from '@krowdy-ui/icons/Alarm';
 import GitHub from '_shared/svgIcons/GithubIcon';
 import KawaiiIcon from '_shared/svgIcons/KawaiiIcon';
-import Devices from '@material-ui/icons/DevicesOther';
+import Devices from '@krowdy-ui/icons/DevicesOther';
 import PatreonSponsors from '_shared/PatreonSponsors';
 import { GITHUB_URL } from '_constants';
 import { LandingProperty } from './LandingProperty';
-import { Button, Paper, Typography, Toolbar, Grid, makeStyles } from '@material-ui/core';
+import { Button, Paper, Typography, Toolbar, Grid, makeStyles } from '@krowdy-ui/core';
 
 const useStyles = makeStyles(theme => ({
   logoContainer: {
@@ -103,7 +103,7 @@ const Landing = () => {
     <div>
       <PageMeta
         title="Material-UI Pickers"
-        description="Accessible, customizable, delightful date & time pickers for @material-ui/core"
+        description="Accessible, customizable, delightful date & time pickers for @krowdy-ui/core"
       />
 
       <Toolbar color="primary" className={classes.appToolbar}>
@@ -122,7 +122,7 @@ const Landing = () => {
             </Typography>
 
             <Typography variant="h5" className={classes.landingTypography} gutterBottom>
-              Date & Time pickers, built with ❤️ for @material-ui/core
+              Date & Time pickers, built with ❤️ for @krowdy-ui/core
             </Typography>
 
             <Grid container className={classes.buttons}>
@@ -176,11 +176,11 @@ const Landing = () => {
         <KawaiiIcon className={classes.kawaiiIcon} />
 
         <Typography gutterBottom variant="h4" align="center">
-          Support @material-ui/pickers
+          Support @krowdy-ui/pickers
         </Typography>
 
         <Typography gutterBottom align="center">
-          @material-ui/pickers is a MIT licensed open source project. We are intent on code quality
+          @krowdy-ui/pickers is a MIT licensed open source project. We are intent on code quality
           and project maintain. You can support this project as a part of material-ui's{' '}
           <a href="https://opencollective.com/material-ui">open collective</a>. Or support this
           project directly via <a href="https://www.patreon.com/user?u=9897423"> Patreon </a>

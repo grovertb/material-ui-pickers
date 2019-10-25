@@ -5,21 +5,21 @@ import PageMeta from '_shared/PageMeta'
 
 ## Upgrading to v3
 
-Version `v3` for @material-ui/pickers is coming with a whole bunch of breaking changes. This is a guide of how-to update :)
+Version `v3` for @krowdy-ui/pickers is coming with a whole bunch of breaking changes. This is a guide of how-to update :)
 <Ad />
 
 #### ⬇️ Install
 
 First of all, you need to install the new package, because the project is transferred to mui-org!
-Please also note, that **v3** of `@material-ui/pickers` relies on **v4** of `@material-ui/core`
+Please also note, that **v3** of `@krowdy-ui/pickers` relies on **v4** of `@krowdy-ui/core`
 
 ```
-npm i @material-ui/pickers @material-ui/core@latest
+npm i @krowdy-ui/pickers @krowdy-ui/core@latest
 
-yarn add @material-ui/pickers @material-ui/core@latest
+yarn add @krowdy-ui/pickers @krowdy-ui/core@latest
 ```
 
-**Note**: It's also required to upgrade your `@material-ui/core` version to `@next`
+**Note**: It's also required to upgrade your `@krowdy-ui/core` version to `@next`
 
 
 #### 🌚 Imports
@@ -28,8 +28,8 @@ Keyboard mode comes with separate components like `<KeyboardDatePicker />`.
 Thus you are assured that keyboard-specific logic will be correctly tree-shaken.
 
 ```diff
-- import { DatePicker } from '@material-ui/pickers'
-+ import { KeyboardDatePicker } from '@material-ui/pickers'
+- import { DatePicker } from '@krowdy-ui/pickers'
++ import { KeyboardDatePicker } from '@krowdy-ui/pickers'
 
 - <DatePicker keyboard />
 + <KeyboardDatePicker />
@@ -38,8 +38,8 @@ Thus you are assured that keyboard-specific logic will be correctly tree-shaken.
 Also there are no more wrapper-specific components, like `InlineDatePicker`. Use `variant` prop instead.
 
 ```diff
-- import { InlineDatePicker } from '@material-ui/pickers'
-+ import { DatePicker } from '@material-ui/pickers'
+- import { InlineDatePicker } from '@krowdy-ui/pickers'
++ import { DatePicker } from '@krowdy-ui/pickers'
 
 - <InlineDatePicker />
 + <DatePicker variant="inline" />

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import clsx from 'clsx';
 import ClockType, { ClockViewType } from '../../constants/ClockType';
-import { Theme } from '@material-ui/core/styles';
-import { withStyles, createStyles, WithStyles } from '@material-ui/core/styles';
+import { Theme } from '@krowdy-ui/core/styles';
+import { withStyles, createStyles, WithStyles } from '@krowdy-ui/core/styles';
 
 export interface ClockPointerProps extends WithStyles<typeof styles> {
   value: number;

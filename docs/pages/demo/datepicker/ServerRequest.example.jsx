@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
-import { Badge } from '@material-ui/core';
-import { DatePicker } from '@material-ui/pickers';
+import { Badge } from '@krowdy-ui/core';
+import { DatePicker } from '@krowdy-ui/pickers';
 import { makeJSDateObject } from '../../../utils/helpers';
 
 function getRandomNumber(min, max) {

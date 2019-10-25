@@ -14,7 +14,7 @@ import {
   makeStyles,
   Typography,
   Grid,
-} from '@material-ui/core';
+} from '@krowdy-ui/core';
 
 const useStyles = makeStyles(theme => ({
   header: {

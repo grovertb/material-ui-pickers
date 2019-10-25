@@ -1,7 +1,7 @@
 import * as React from 'react';
 import clsx from 'clsx';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+import Typography from '@krowdy-ui/core/Typography';
+import { makeStyles } from '@krowdy-ui/core/styles';
 
 export interface MonthProps {
   children: React.ReactNode;

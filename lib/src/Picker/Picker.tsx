@@ -4,7 +4,7 @@ import Calendar from '../views/Calendar/Calendar';
 import { useUtils } from '../_shared/hooks/useUtils';
 import { useViews } from '../_shared/hooks/useViews';
 import { ClockView } from '../views/Clock/ClockView';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@krowdy-ui/core/styles';
 import { YearSelection } from '../views/Year/YearView';
 import { BasePickerProps } from '../typings/BasePicker';
 import { MaterialUiPickersDate } from '../typings/date';

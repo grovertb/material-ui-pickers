@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Paper, Button } from '@material-ui/core';
-import { useStaticState, ClockView, Calendar } from '@material-ui/pickers';
+import { Paper, Button } from '@krowdy-ui/core';
+import { useStaticState, ClockView, Calendar } from '@krowdy-ui/pickers';
 
 function StaticPickers() {
   const [value, handleDateChange] = useState(new Date());

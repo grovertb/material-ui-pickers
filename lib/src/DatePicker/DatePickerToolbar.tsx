@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import ToolbarButton from '../_shared/ToolbarButton';
 import PickerToolbar from '../_shared/PickerToolbar';
 import { useUtils } from '../_shared/hooks/useUtils';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@krowdy-ui/core/styles';
 import { ToolbarComponentProps } from '../Picker/Picker';
 import { isYearAndMonthViews, isYearOnlyView } from '../_helpers/date-utils';
 

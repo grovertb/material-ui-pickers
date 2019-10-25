@@ -6,12 +6,12 @@
 
 <div align="center">
 
-Accessible, customizable, delightful date & time pickers for [@material-ui/core](https://material-ui.com/)
+Accessible, customizable, delightful date & time pickers for [@krowdy-ui/core](https://material-ui.com/)
 
-[![npm package](https://img.shields.io/npm/v/@material-ui/pickers.svg)](https://www.npmjs.org/package/@material-ui/pickers)
-[![npm download](https://img.shields.io/npm/dm/@material-ui/pickers.svg)](https://www.npmjs.org/package/@material-ui/pickers)
+[![npm package](https://img.shields.io/npm/v/@krowdy-ui/pickers.svg)](https://www.npmjs.org/package/@krowdy-ui/pickers)
+[![npm download](https://img.shields.io/npm/dm/@krowdy-ui/pickers.svg)](https://www.npmjs.org/package/@krowdy-ui/pickers)
 [![codecov](https://codecov.io/gh/mui-org/material-ui-pickers/branch/next/graph/badge.svg)](https://codecov.io/gh/mui-org/material-ui-pickers)
-[![Bundle Size](https://badgen.net/bundlephobia/minzip/@material-ui/pickers)](https://bundlephobia.com/result?p=@material-ui/pickers@latest)
+[![Bundle Size](https://badgen.net/bundlephobia/minzip/@krowdy-ui/pickers)](https://bundlephobia.com/result?p=@krowdy-ui/pickers@latest)
 [![CircleCI](https://circleci.com/gh/mui-org/material-ui-pickers.svg?style=svg)](https://circleci.com/gh/mui-org/material-ui-pickers)
 [![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://dashboard.cypress.io/#/projects/qow28y/runs)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/mui-org/material-ui-pickers)
@@ -21,14 +21,14 @@ Accessible, customizable, delightful date & time pickers for [@material-ui/core]
 
 ### Installation
 
-Note that this package requires `@material-ui/core` **v4**. It will not work with the old v3. Please read the [migration guide](https://material-ui-pickers.dev/guides/upgrading-to-v3) if you are updating from v2
+Note that this package requires `@krowdy-ui/core` **v4**. It will not work with the old v3. Please read the [migration guide](https://material-ui-pickers.dev/guides/upgrading-to-v3) if you are updating from v2
 
 ```sh
 // via npm
-npm i @material-ui/pickers
+npm i @krowdy-ui/pickers
 
 // via yarn
-yarn add @material-ui/pickers
+yarn add @krowdy-ui/pickers
 ```
 
 Now choose the library that pickers will use to work with date. We are providing interfaces for [moment](https://momentjs.com/), [luxon](https://moment.github.io/luxon/), [dayjs](https://github.com/iamkun/dayjs) and [date-fns v2](https://date-fns.org/). If you are not using moment in the project (or don’t have it in the bundle already) we suggest using date-fns or luxon, because they are much lighter and will be correctly tree-shaked from the bundle. Note, that we are fully relying on [date-io](https://github.com/dmtrKovalenko/date-io) for supporting different libraries.
@@ -49,7 +49,7 @@ Then teach pickers which library to use with `MuiPickerUtilsProvider`. This comp
 import MomentUtils from '@date-io/moment';
 import DateFnsUtils from '@date-io/date-fns';
 import LuxonUtils from '@date-io/luxon';
-import { MuiPickersUtilsProvider } from '@material-ui/pickers';
+import { MuiPickersUtilsProvider } from '@krowdy-ui/pickers';
 
 function App() {
   return (

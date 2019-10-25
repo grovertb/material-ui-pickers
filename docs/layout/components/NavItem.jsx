@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { withRouter } from 'next/router';
-import { ListItem, withStyles, Collapse, Button } from '@material-ui/core';
+import { ListItem, withStyles, Collapse, Button } from '@krowdy-ui/core';
 
 const styles = theme => ({
   listItem: {

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import clsx from 'clsx';
-import Toolbar, { ToolbarProps } from '@material-ui/core/Toolbar';
+import Toolbar, { ToolbarProps } from '@krowdy-ui/core/Toolbar';
 import { ExtendMui } from '../typings/extendMui';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@krowdy-ui/core/styles';
 
 export const useStyles = makeStyles(
   theme => ({

@@ -4,7 +4,7 @@ import ModalDialog from '../_shared/ModalDialog';
 import { WrapperProps } from './Wrapper';
 import { Omit } from '../_helpers/utils';
 import { useKeyDown } from '../_shared/hooks/useKeyDown';
-import { DialogProps as MuiDialogProps } from '@material-ui/core/Dialog';
+import { DialogProps as MuiDialogProps } from '@krowdy-ui/core/Dialog';
 
 export interface ModalWrapperProps<T = {}> extends WrapperProps<T> {
   /**

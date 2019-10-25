@@ -1,8 +1,8 @@
 import * as React from 'react';
 import clsx from 'clsx';
-import Typography, { TypographyProps } from '@material-ui/core/Typography';
+import Typography, { TypographyProps } from '@krowdy-ui/core/Typography';
 import { ExtendMui } from '../typings/extendMui';
-import { makeStyles, fade } from '@material-ui/core/styles';
+import { makeStyles, fade } from '@krowdy-ui/core/styles';
 
 export interface ToolbarTextProps extends ExtendMui<TypographyProps> {
   selected?: boolean;

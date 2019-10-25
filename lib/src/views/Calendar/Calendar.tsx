@@ -3,14 +3,14 @@ import * as PropTypes from 'prop-types';
 import Day from './Day';
 import DayWrapper from './DayWrapper';
 import CalendarHeader from './CalendarHeader';
-import CircularProgress from '@material-ui/core/CircularProgress';
+import CircularProgress from '@krowdy-ui/core/CircularProgress';
 import SlideTransition, { SlideDirection } from './SlideTransition';
-import { Theme } from '@material-ui/core/styles';
+import { Theme } from '@krowdy-ui/core/styles';
 import { VariantContext } from '../../wrappers/Wrapper';
 import { MaterialUiPickersDate } from '../../typings/date';
 import { runKeyHandler } from '../../_shared/hooks/useKeyDown';
-import { IconButtonProps } from '@material-ui/core/IconButton';
-import { withStyles, WithStyles } from '@material-ui/core/styles';
+import { IconButtonProps } from '@krowdy-ui/core/IconButton';
+import { withStyles, WithStyles } from '@krowdy-ui/core/styles';
 import { findClosestEnabledDate } from '../../_helpers/date-utils';
 import { withUtils, WithUtilsProps } from '../../_shared/WithUtils';
 

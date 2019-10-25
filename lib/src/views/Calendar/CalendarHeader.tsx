@@ -1,12 +1,12 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@krowdy-ui/core/Typography';
 import SlideTransition, { SlideDirection } from './SlideTransition';
-import IconButton, { IconButtonProps } from '@material-ui/core/IconButton';
+import IconButton, { IconButtonProps } from '@krowdy-ui/core/IconButton';
 import { DateType } from '@date-io/type';
 import { useUtils } from '../../_shared/hooks/useUtils';
 import { MaterialUiPickersDate } from '../../typings/date';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@krowdy-ui/core/styles';
 import { ArrowLeftIcon } from '../../_shared/icons/ArrowLeftIcon';
 import { ArrowRightIcon } from '../../_shared/icons/ArrowRightIcon';
 

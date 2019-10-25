@@ -5,7 +5,7 @@ import PropTypesTable from '_shared/PropTypesTable';
 import KawaiiIcon from '_shared/svgIcons/KawaiiIcon';
 import { PageMeta } from '_shared/PageMeta';
 import { WithRouterProps, withRouter } from 'next/router';
-import { Typography, Grid, makeStyles } from '@material-ui/core';
+import { Typography, Grid, makeStyles } from '@krowdy-ui/core';
 
 const internalComponents = ['Calendar', 'ClockView'];
 const useStyles = makeStyles(theme => ({
@@ -42,7 +42,7 @@ const Docs: React.FC<WithRouterProps> = ({ router }) => {
       </Grid>
 
       <h4> Import </h4>
-      <Code language="jsx">{`import { ${componentName} } from '@material-ui/pickers'`}</Code>
+      <Code language="jsx">{`import { ${componentName} } from '@krowdy-ui/pickers'`}</Code>
 
       <h4> Inheritance </h4>
       <Typography gutterBottom>

@@ -1,4 +1,4 @@
-import { useTheme } from '@material-ui/core/styles';
+import { useTheme } from '@krowdy-ui/core/styles';
 
 // ! This is very handcrafted svg for SSR. Don't make your logos this way 🤦🤦‍🤦‍
 const Logo: React.FC = () => {

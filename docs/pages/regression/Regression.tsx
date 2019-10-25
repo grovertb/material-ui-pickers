@@ -1,9 +1,9 @@
 import React, { useState, useContext } from 'react';
-import LeftArrowIcon from '@material-ui/icons/KeyboardArrowLeft';
-import RightArrowIcon from '@material-ui/icons/KeyboardArrowRight';
-import { Grid, Typography } from '@material-ui/core';
-import { MuiPickersContext } from '@material-ui/pickers';
-import { DatePicker, KeyboardDatePicker } from '@material-ui/pickers';
+import LeftArrowIcon from '@krowdy-ui/icons/KeyboardArrowLeft';
+import RightArrowIcon from '@krowdy-ui/icons/KeyboardArrowRight';
+import { Grid, Typography } from '@krowdy-ui/core';
+import { MuiPickersContext } from '@krowdy-ui/pickers';
+import { DatePicker, KeyboardDatePicker } from '@krowdy-ui/pickers';
 import { createRegressionDay as createRegressionDayRenderer } from './RegressionDay';
 
 function Regression() {
@@ -26,7 +26,7 @@ function Regression() {
   return (
     <div style={{ marginTop: 30 }}>
       <Typography align="center" variant="h5" gutterBottom>
-        This page is using for the automate regression of @material-ui/pickers.
+        This page is using for the automate regression of @krowdy-ui/pickers.
       </Typography>
 
       <Typography align="center" variant="h4" component="span" gutterBottom>

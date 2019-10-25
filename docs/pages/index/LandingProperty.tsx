@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { SvgIconProps } from '@material-ui/core/SvgIcon';
-import { Typography, makeStyles, Paper } from '@material-ui/core';
+import { SvgIconProps } from '@krowdy-ui/core/SvgIcon';
+import { Typography, makeStyles, Paper } from '@krowdy-ui/core';
 
 interface LandingPropertyProps {
   title: string;

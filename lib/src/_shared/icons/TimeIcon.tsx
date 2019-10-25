@@ -1,5 +1,5 @@
 import React from 'react';
-import SvgIcon, { SvgIconProps } from '@material-ui/core/SvgIcon';
+import SvgIcon, { SvgIconProps } from '@krowdy-ui/core/SvgIcon';
 
 export const TimeIcon: React.SFC<SvgIconProps> = props => {
   return (

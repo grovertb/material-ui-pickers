@@ -2,10 +2,10 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import clsx from 'clsx';
 import ToolbarText from './ToolbarText';
-import Button, { ButtonProps } from '@material-ui/core/Button';
+import Button, { ButtonProps } from '@krowdy-ui/core/Button';
 import { ExtendMui } from '../typings/extendMui';
-import { TypographyProps } from '@material-ui/core/Typography';
-import { createStyles, withStyles, WithStyles } from '@material-ui/core/styles';
+import { TypographyProps } from '@krowdy-ui/core/Typography';
+import { createStyles, withStyles, WithStyles } from '@krowdy-ui/core/styles';
 
 export interface ToolbarButtonProps
   extends ExtendMui<ButtonProps, 'variant'>,

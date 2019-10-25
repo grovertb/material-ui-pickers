@@ -46,13 +46,13 @@ This will also autocomplete classnames.
 Add the following to a TypeScript declaration file in your project, such as `overrides-mui.d.ts`:
 
 ```typescript
-import { Overrides } from "@material-ui/core/styles/overrides";
+import { Overrides } from "@krowdy-ui/core/styles/overrides";
 import { MuiPickersOverrides } from 'material-ui-pickers/typings/overrides'
 
 type overridesNameToClassKey = { [P in keyof MuiPickersOverrides]: keyof
 MuiPickersOverrides[P] }
 
-declare module "@material-ui/core/styles/overrides" {
+declare module "@krowdy-ui/core/styles/overrides" {
     export interface ComponentNameToClassKey extends overridesNameToClassKey { }
 }
 ```

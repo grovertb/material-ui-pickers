@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import NavigationMenu from './NavigationMenu';
-import { version } from '@material-ui/pickers/package.json';
-import { Divider, Toolbar, Typography, Theme } from '@material-ui/core';
-import { createStyles, withStyles, WithStyles } from '@material-ui/styles';
+import { version } from '@krowdy-ui/pickers/package.json';
+import { Divider, Toolbar, Typography, Theme } from '@krowdy-ui/core';
+import { createStyles, withStyles, WithStyles } from '@krowdy-ui/styles';
 
 const styles = (theme: Theme) =>
   createStyles({

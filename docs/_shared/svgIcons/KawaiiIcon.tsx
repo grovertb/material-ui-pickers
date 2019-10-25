@@ -1,8 +1,8 @@
 import * as React from 'react';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { NoSsr } from '@material-ui/core';
+import useMediaQuery from '@krowdy-ui/core/useMediaQuery';
+import { NoSsr } from '@krowdy-ui/core';
 import { getRandomItem } from 'utils/helpers';
-import { useTheme } from '@material-ui/core/styles';
+import { useTheme } from '@krowdy-ui/core/styles';
 import { Backpack, Ghost, Cat, IceCream, Browser, SpeechBubble, KawaiiProps } from 'react-kawaii';
 
 const icons = {

@@ -1,16 +1,16 @@
 import rtl from 'jss-rtl';
 import Layout from './Layout';
 import React, { useState, useCallback } from 'react';
-import orange from '@material-ui/core/colors/deepOrange';
+import orange from '@krowdy-ui/core/colors/deepOrange';
 import { create } from 'jss';
 import { SnackbarProvider } from 'notistack';
 import { setPrismTheme } from '../utils/prism';
 import { PageContext } from '../utils/getPageContext';
 import { UtilsContext } from '../_shared/UtilsServiceContext';
-import { MuiPickersUtilsProvider } from '@material-ui/pickers';
+import { MuiPickersUtilsProvider } from '@krowdy-ui/pickers';
 import { NotificationManager } from 'utils/NotificationManager';
-import { Theme, createMuiTheme, CssBaseline } from '@material-ui/core';
-import { ThemeProvider, jssPreset, StylesProvider } from '@material-ui/styles';
+import { Theme, createMuiTheme, CssBaseline } from '@krowdy-ui/core';
+import { ThemeProvider, jssPreset, StylesProvider } from '@krowdy-ui/styles';
 import { createUtilsService, UtilsLib, utilsMap } from '../utils/utilsService';
 
 export type ThemeType = 'light' | 'dark';

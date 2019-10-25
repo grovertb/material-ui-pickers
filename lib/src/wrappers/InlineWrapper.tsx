@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import Popover, { PopoverProps as PopoverPropsType } from '@material-ui/core/Popover';
+import Popover, { PopoverProps as PopoverPropsType } from '@krowdy-ui/core/Popover';
 import { WrapperProps } from './Wrapper';
 import { useKeyDown } from '../_shared/hooks/useKeyDown';
-import { TextFieldProps } from '@material-ui/core/TextField';
+import { TextFieldProps } from '@krowdy-ui/core/TextField';
 
 export interface InlineWrapperProps<T = TextFieldProps> extends WrapperProps<T> {
   /** Popover props passed to material-ui Popover (with variant="inline") */

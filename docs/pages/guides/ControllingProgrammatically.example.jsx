@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { DatePicker } from '@material-ui/pickers';
-import { Button, makeStyles } from '@material-ui/core';
+import { DatePicker } from '@krowdy-ui/pickers';
+import { Button, makeStyles } from '@krowdy-ui/core';
 
 const useStyles = makeStyles({
   container: {

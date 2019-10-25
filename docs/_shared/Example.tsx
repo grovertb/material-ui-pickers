@@ -1,15 +1,15 @@
 import * as React from 'react';
 import clsx from 'clsx';
 import Code from './Code';
-import CodeIcon from '@material-ui/icons/Code';
-import CopyIcon from '@material-ui/icons/FileCopy';
+import CodeIcon from '@krowdy-ui/icons/Code';
+import CopyIcon from '@krowdy-ui/icons/FileCopy';
 import GithubIcon from '_shared/svgIcons/GithubIcon';
 import { copy } from 'utils/helpers';
 import { useSnackbar } from 'notistack';
 import { GITHUB_EDIT_URL } from '_constants';
 import { replaceGetFormatStrings } from 'utils/utilsService';
 import { withUtilsService, UtilsContext } from './UtilsServiceContext';
-import { makeStyles, IconButton, Collapse, Tooltip } from '@material-ui/core';
+import { makeStyles, IconButton, Collapse, Tooltip } from '@krowdy-ui/core';
 
 interface ExampleProps {
   testId: string;

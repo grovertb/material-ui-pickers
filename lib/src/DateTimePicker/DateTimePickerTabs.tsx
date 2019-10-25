@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Tab from '@material-ui/core/Tab';
-import Tabs from '@material-ui/core/Tabs';
-import Paper from '@material-ui/core/Paper';
+import Tab from '@krowdy-ui/core/Tab';
+import Tabs from '@krowdy-ui/core/Tabs';
+import Paper from '@krowdy-ui/core/Paper';
 import { TimeIcon } from '../_shared/icons/TimeIcon';
 import { DateTimePickerView } from './DateTimePicker';
 import { DateRangeIcon } from '../_shared/icons/DateRangeIcon';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@krowdy-ui/core/styles';
 
 const viewToTabIndex = (openView: DateTimePickerView) => {
   if (openView === 'date' || openView === 'year') {

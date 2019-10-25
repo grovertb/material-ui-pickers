@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@krowdy-ui/core/Grid';
 import ToolbarText from '../_shared/ToolbarText';
 import PickerToolbar from '../_shared/PickerToolbar';
 import ToolbarButton from '../_shared/ToolbarButton';
@@ -7,7 +7,7 @@ import DateTimePickerTabs from './DateTimePickerTabs';
 import { useUtils } from '../_shared/hooks/useUtils';
 import { DateTimePickerView } from './DateTimePicker';
 import { ToolbarComponentProps } from '../Picker/Picker';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@krowdy-ui/core/styles';
 import { useMeridiemMode } from '../TimePicker/TimePickerToolbar';
 
 export const useStyles = makeStyles(

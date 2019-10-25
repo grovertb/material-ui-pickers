@@ -1,11 +1,11 @@
 import * as React from 'react';
 import clsx from 'clsx';
-import Button from '@material-ui/core/Button';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import Dialog, { DialogProps } from '@material-ui/core/Dialog';
+import Button from '@krowdy-ui/core/Button';
+import DialogActions from '@krowdy-ui/core/DialogActions';
+import DialogContent from '@krowdy-ui/core/DialogContent';
+import Dialog, { DialogProps } from '@krowdy-ui/core/Dialog';
 import { DIALOG_WIDTH, DIALOG_WIDTH_WIDER } from '../constants/dimensions';
-import { createStyles, WithStyles, withStyles } from '@material-ui/core/styles';
+import { createStyles, WithStyles, withStyles } from '@krowdy-ui/core/styles';
 
 export interface ModalDialogProps extends DialogProps {
   onAccept: () => void;

@@ -1,5 +1,5 @@
-import { Theme } from '@material-ui/core';
-import { StyleRules } from '@material-ui/styles';
+import { Theme } from '@krowdy-ui/core';
+import { StyleRules } from '@krowdy-ui/styles';
 
 export const createOverrides = (theme: Theme): StyleRules<any> => ({
   body: {

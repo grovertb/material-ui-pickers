@@ -8,7 +8,7 @@ import { arrayIncludes } from '../_helpers/utils';
 import { useUtils } from '../_shared/hooks/useUtils';
 import { MaterialUiPickersDate } from '../typings/date';
 import { ToolbarComponentProps } from '../Picker/Picker';
-import { useTheme, makeStyles } from '@material-ui/core/styles';
+import { useTheme, makeStyles } from '@krowdy-ui/core/styles';
 import { convertToMeridiem, getMeridiem } from '../_helpers/time-utils';
 
 export const useStyles = makeStyles(

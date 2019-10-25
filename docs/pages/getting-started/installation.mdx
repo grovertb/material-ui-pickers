@@ -2,22 +2,22 @@ import PageMeta from '../../_shared/PageMeta'
 
 <PageMeta
   title="Installation"
-  description="Step-by-step guide how to install @material-ui/pickers"
+  description="Step-by-step guide how to install @krowdy-ui/pickers"
 />
 
 ## Installation
 
-Available as an [npm package](https://www.npmjs.com/package/@material-ui/pickers)
+Available as an [npm package](https://www.npmjs.com/package/@krowdy-ui/pickers)
 
 ```
-npm i @material-ui/pickers
+npm i @krowdy-ui/pickers
 
-yarn add @material-ui/pickers
+yarn add @krowdy-ui/pickers
 ```
 
 #### Peer Library
 
-@material-ui/pickers was designed to use the date management library of your choice.
+@krowdy-ui/pickers was designed to use the date management library of your choice.
 We are providing interfaces for [moment](https://momentjs.com/), [date-fns 2](https://date-fns.org/), [luxon](https://moment.github.io/luxon/) and [dayjs](https://github.com/iamkun/dayjs).
 
 **Important:** we only support date-fns versions `v2` upwards.
@@ -37,7 +37,7 @@ Tell pickers which date management library it should use with `MuiPickersUtilsPr
 be used at the root of your component tree, or at the highest level you wish the pickers to be available.
 
 ```jsx
-import { MuiPickersUtilsProvider } from '@material-ui/pickers';
+import { MuiPickersUtilsProvider } from '@krowdy-ui/pickers';
 
 // pick a date util library
 import MomentUtils from '@date-io/moment';

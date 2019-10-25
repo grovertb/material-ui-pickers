@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import clsx from 'clsx';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+import IconButton from '@krowdy-ui/core/IconButton';
+import Typography from '@krowdy-ui/core/Typography';
+import { makeStyles } from '@krowdy-ui/core/styles';
 
 export const useStyles = makeStyles(
   theme => ({

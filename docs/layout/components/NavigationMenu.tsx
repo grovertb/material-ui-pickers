@@ -1,7 +1,7 @@
 import React from 'react';
 import NavItem from './NavItem';
 import { withRouter } from 'next/router';
-import { List } from '@material-ui/core';
+import { List } from '@krowdy-ui/core';
 import { navItems } from './navigationMap';
 import { stringToTestId } from 'utils/helpers';
 

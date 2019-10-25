@@ -1,17 +1,17 @@
 import clsx from 'clsx';
 import React, { Component } from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
+import MenuIcon from '@krowdy-ui/icons/Menu';
 import DrawerMenu from './components/DrawerMenu';
 import Github from '../_shared/svgIcons/GithubIcon';
-import SettingsIcon from '@material-ui/icons/Settings';
+import SettingsIcon from '@krowdy-ui/icons/Settings';
 import LightbulbOutlineIcon from '../_shared/svgIcons/LightbulbIcon';
-import TextDirectionRtLIcon from '@material-ui/icons/FormatTextdirectionRToL';
-import TextDirectionLtrIcon from '@material-ui/icons/FormatTextdirectionLToR';
+import TextDirectionRtLIcon from '@krowdy-ui/icons/FormatTextdirectionRToL';
+import TextDirectionLtrIcon from '@krowdy-ui/icons/FormatTextdirectionLToR';
 import { GITHUB_URL } from '_constants';
 import { createOverrides } from './styleOverrides';
 import { withRouter, WithRouterProps } from 'next/router';
 import { utilsMap, UtilsLib } from '../utils/utilsService';
-import { withStyles, WithStyles, createStyles } from '@material-ui/styles';
+import { withStyles, WithStyles, createStyles } from '@krowdy-ui/styles';
 import {
   Hidden,
   Drawer,
@@ -22,7 +22,7 @@ import {
   Theme,
   Menu,
   MenuItem,
-} from '@material-ui/core';
+} from '@krowdy-ui/core';
 
 interface LayoutProps extends WithRouterProps, WithStyles<typeof styles, true> {
   toggleThemeType: () => void;

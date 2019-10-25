@@ -2,10 +2,10 @@ import frLocale from 'date-fns/locale/fr';
 import ruLocale from 'date-fns/locale/ru';
 import DateFnsUtils from '@date-io/date-fns';
 import enLocale from 'date-fns/locale/en-US';
-import MoreIcon from '@material-ui/icons/MoreVert';
+import MoreIcon from '@krowdy-ui/icons/MoreVert';
 import React, { useState, useCallback } from 'react';
-import { IconButton, Menu, MenuItem } from '@material-ui/core';
-import { DatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
+import { IconButton, Menu, MenuItem } from '@krowdy-ui/core';
+import { DatePicker, MuiPickersUtilsProvider } from '@krowdy-ui/pickers';
 
 const localeMap = {
   en: enLocale,

@@ -1,7 +1,7 @@
 import React from 'react';
 import KawaiiIcon from '_shared/svgIcons/KawaiiIcon';
-import { styled } from '@material-ui/styles';
-import { Grid, Typography, NoSsr } from '@material-ui/core';
+import { styled } from '@krowdy-ui/styles';
+import { Grid, Typography, NoSsr } from '@krowdy-ui/core';
 
 const CenteredGrid = styled(Grid)({
   position: 'relative',

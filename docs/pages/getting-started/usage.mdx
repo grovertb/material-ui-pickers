@@ -1,13 +1,13 @@
 import Ad from '_shared/Ad'
 import PageMeta from '_shared/PageMeta';
-import { NoSsr } from '@material-ui/core';
+import { NoSsr } from '@krowdy-ui/core';
 import { CODESANDBOX_EXAMPLE_ID } from '_constants';
 
-<PageMeta title="Usage" description="Simple usage example of @material-ui/pickers" />
+<PageMeta title="Usage" description="Simple usage example of @krowdy-ui/pickers" />
 
 ## Usage
 
-@material-ui/pickers relies only on material-ui controls and the date management library of your choice. Please note that all components are controlled, meaning that it's required to pass the `value` and `onChange` props.
+@krowdy-ui/pickers relies only on material-ui controls and the date management library of your choice. Please note that all components are controlled, meaning that it's required to pass the `value` and `onChange` props.
 
 <Ad />
 
@@ -21,7 +21,7 @@ import {
   TimePicker,
   DateTimePicker,
   MuiPickersUtilsProvider,
-} from "@material-ui/pickers";
+} from "@krowdy-ui/pickers";
 
 function App() {
   const [selectedDate, handleDateChange] = useState(new Date());
